@@ -22,9 +22,9 @@ int main(){
             m[S[i]]++;
         }
         unordered_map <char,int>::iterator it;
-          for(it=m.begin();it!=m.end();it++){  
-        cout<<it->first<<":"<<it->second<<endl;
-            }
+        //   for(it=m.begin();it!=m.end();it++){  
+        // cout<<it->first<<":"<<it->second<<endl;
+        //     }
         while(q>0){
             int c;
             int output=0;
